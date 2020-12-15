@@ -1,0 +1,27 @@
+{
+	"qp":{
+		"bounds":{
+			"lower":[2,-50],
+			"upper":[50,50]
+		},
+		"constraints":{
+			"lower":[10],
+			"upper":[10100],
+			"matrix":[
+[10,-1]
+			]
+		},
+		"objective":{
+			"vector":[0,0],
+			"positive_definite":true,
+			"hessian":[
+[0.020000000000000000416,0],
+[0,2]
+			]
+		},
+		"solution":{
+			"vector":[2,0],
+			"value":0.040000000000000000833
+		}
+	}
+}
